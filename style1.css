@@ -1,0 +1,87 @@
+.menu{
+    font-weight: bold;
+    color: #fff;
+    background-color: #45015d;
+    border-radius: 15px;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+}
+.menu a{
+    width: 100%;
+    display: block;
+    text-decoration: solid;
+    color: inherit;
+    cursor: pointer;
+}
+.menu a:hover{
+    color:#000;
+    background-color:#fff;
+}
+.main{
+    margin-left: 15%;
+}
+hr{
+    border: 7px solid #45015d;
+    border-radius: 5px;
+}
+.showcase img{
+    width: 40%;
+    border-radius: 15px;
+    margin: 5px;
+    filter: grayscale(.5);
+}
+.text{
+    font-weight: bold;
+}
+.card{
+    width: 33%;
+    display: inline-block;
+}
+.card img{
+    width: 90%;
+    border-radius: 8px;
+}
+.cardtxt{
+    background-color: grey;
+    width: 87%;
+    border-radius: 5px;
+    padding: 5px;
+    height: 136px;
+    
+}
+.deal1{
+    width: 35%;
+    display: inline-block;
+    border: solid grey 2px;
+    border-radius: 12px;
+    text-align: center;
+}
+.dealname{
+    background-color: #45015d;
+    color: white;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dealname p{
+    margin: 0;
+    
+}
+.deal1 hr{
+    border:  1px solid darkgrey;
+}
+.footer{
+    background-color: grey;
+    margin-top: 40px;
+    height: 100px;
+}
+input{
+    width: 100%;
+}
+.footer p{
+    padding: 0;
+    margin: 0;
+}
